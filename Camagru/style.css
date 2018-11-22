@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 120%;
+    background:lightgray;
+}
+
+.header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: lightgreen;
+    text-align: center;
+    border: 1px solid black;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+.form {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid black;
+    background: lightgray;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.reg_input {
+    margin: 10px 0px 10px 0px;
+}
+
+.reg_input label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.reg_input input {
+    height: 30px;
+    width: 90%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid black; 
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: gray;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+}
+body {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+    background: white;
+}
+
+
+#over img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#items{
+	width: 70%;
+	min-height: 800px;
+	height: auto;
+	float: right; 
+	background: var(--lblue);
+	border-radius: 0 10px 10px 0;
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    
+  }
