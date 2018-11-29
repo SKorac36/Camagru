@@ -1,0 +1,49 @@
+.booth{
+    width:400px;
+    background-color: lightgrey;
+    border-color: black;
+    border: 1px;
+    margin:0 auto;
+}
+.booth-capture-button{
+    display: block;
+    margin:10px 0;
+    padding:10px 20px;
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    font: caption;
+    text-decoration: none;
+}
+.own_image{
+    padding: 10px 20px;
+    margin:0 auto;
+}
+
+#wrapper {
+    width: 800px;
+    overflow: hidden; /* will contain if #first is longer than #second */
+    /* align-content: center; */
+    margin:0 auto;
+    display: flex;
+
+}
+#photo {
+    float:left;
+
+}
+#stickers {
+    /* float: right; add this */
+    display: inline;
+    background-color: lightgreen;
+}
+#photoELement { 
+    left: 0; 
+    top: 0; 
+    z-index: 0;
+}
+#capturedElement {
+    left:10;
+    right:20;
+    z-index: 1;
+}
